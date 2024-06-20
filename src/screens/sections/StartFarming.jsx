@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { providers, ethers } from "ethers";
 import { toast } from "react-toastify";
 import bsc from "../../contracts/bsc.json";
-import bsc1 from "../../contracts/new_bsc.json";
 import Web3 from "web3";
 import tokenAbi from "../../contracts/tokenAbi.json";
 import { useBalance, useAccount, useConnect } from "wagmi";
